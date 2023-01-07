@@ -5,7 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(
     title= "API-Users",
     description = "API creada con FASTAPI & ANACONDA(PythonDev)",
-    version ="0.1",
+    version ="1.1",
+    author = "CrossDev",
     openapi_tags=[{
         "name": "user",
         "description": "routes" 
